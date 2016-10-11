@@ -1,3 +1,8 @@
+---
+---
+@import "bootstrap/bootstrap";
+@import "sitemap";
+
 .arquitectura-hero {
   display: flex;
   align-items: center;
@@ -8,7 +13,7 @@
   text-align: center;
 
   @include media-breakpoint-up(lg) {
-    background: url("/imgs/arquitectura/hero.png") right center no-repeat;
+    background: url({{ site.github.url }}/imgs/arquitectura/hero.png) right center no-repeat;
     height: 800px;
   }
 }
@@ -72,7 +77,7 @@
 }
 
 .exam-with-shadow--front {
-  background: url(/imgs/arq/front-exam.png) center center no-repeat;
+  background: url({{ site.github.url }}/imgs/arq/front-exam.png) center center no-repeat;
   background-size: contain;
   position: absolute;
   z-index: 40;
@@ -91,7 +96,7 @@
 }
 
 .exam-with-shadow--back {
-  background: url(/imgs/arq/back-exam.png) center center no-repeat;
+  background: url({{ site.github.url }}/imgs/arq/back-exam.png) center center no-repeat;
   background-size: contain;
   position: absolute;
   z-index: 20;
@@ -110,7 +115,7 @@
 }
 
 .exam-with-shadow--front-shadow {
-  background: url(/imgs/arq/front-shadow.png) center center no-repeat;
+  background: url({{ site.github.url }}/imgs/arq/front-shadow.png) center center no-repeat;
   background-size: contain;
   position: absolute;
   z-index: 30;
@@ -128,7 +133,7 @@
   }
 }
 .exam-with-shadow--back-shadow {
-  background: url(/imgs/arq/back-shadow.png) center center no-repeat;
+  background: url({{ site.github.url }}/imgs/arq/back-shadow.png) center center no-repeat;
   background-size: contain;
   position: absolute;
   z-index: 10;
@@ -216,7 +221,7 @@
 }
 
 .arquitectura-mosaic {
-  background: $gray-lightest url(/imgs/arquitectura/mosaic.png) no-repeat top center;
+  background: $gray-lightest url({{ site.github.url }}/imgs/arquitectura/mosaic.png) no-repeat top center;
   height: 1000px;
 }
 

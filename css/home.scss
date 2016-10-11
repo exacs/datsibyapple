@@ -1,3 +1,9 @@
+---
+---
+@charset "utf-8";
+@import "bootstrap/bootstrap";
+@import "sitemap";
+
 .homehero {
   
 }
@@ -10,7 +16,7 @@
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
-  background: $gray-lightest url('/imgs/arquitectura_16.png') center bottom no-repeat;
+  background: $gray-lightest url({{ site.github.url }}/imgs/arquitectura_16.png) center bottom no-repeat;
   background-size: auto 300px;
 
   @include media-breakpoint-up(md) {
@@ -72,16 +78,16 @@
 }
 
 .hometiles-item--bsvc {
-  background: url(/imgs/bsvc_20.jpg) center bottom no-repeat;
+  background: url({{ site.github.url }}/imgs/bsvc_20.jpg) center bottom no-repeat;
 }
 .hometiles-item--ranking {
-  background: url(/imgs/ranking.jpg) center bottom no-repeat;
+  background: url({{ site.github.url }}/imgs/ranking.jpg) center bottom no-repeat;
 }
 .hometiles-item--examenes {
-  background: url(/imgs/examenes.jpg) center bottom no-repeat;
+  background: url({{ site.github.url }}/imgs/examenes.jpg) center bottom no-repeat;
 }
 .hometiles-item--nuevaweb {
-  background: url(/imgs/nuevaweb.jpg) center center no-repeat;
+  background: url({{ site.github.url }}/imgs/nuevaweb.jpg) center center no-repeat;
 }
 
 .hometiles__title {
