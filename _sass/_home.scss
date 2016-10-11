@@ -1,0 +1,95 @@
+.homehero {
+  
+}
+
+.homehero__link {
+  height: 500px;
+  text-decoration: none;
+  display: block;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  background: $gray-lightest url('/imgs/arquitectura_16.png') center bottom no-repeat;
+  background-size: auto 300px;
+
+  @include media-breakpoint-up(md) {
+    height: 600px;
+    background-size: auto 389px;
+  }
+}
+
+.homehero__link:hover {
+  text-decoration: none;
+}
+
+.homehero__title {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  color: #333;
+
+  @include media-breakpoint-up(md) {
+    font-size: 3em;
+  }
+}
+
+.homehero__subtitle {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #999;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.5em;
+  }
+}
+
+
+.hometiles {
+  background: $gray-lightest;
+}
+.hometiles__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.hometiles__item {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.hometiles__link {
+  display: block;
+  height: 200px;
+  background-size: cover;
+  text-align: center;
+}
+
+.hometiles-item {
+  border: 2px solid $gray-lightest;
+  border-bottom: 4px solid $gray-lightest;
+}
+
+.hometiles-item--bsvc {
+  background: url(/imgs/bsvc_20.jpg) center bottom no-repeat;
+}
+.hometiles-item--ranking {
+  background: url(/imgs/ranking.jpg) center bottom no-repeat;
+}
+.hometiles-item--examenes {
+  background: url(/imgs/examenes.jpg) center bottom no-repeat;
+}
+.hometiles-item--nuevaweb {
+  background: url(/imgs/nuevaweb.jpg) center center no-repeat;
+}
+
+.hometiles__title {
+  margin: 0;
+  padding: 0;
+}
+.hometiles__subtitle {
+  margin: 0;
+  padding: 0;
+}
+

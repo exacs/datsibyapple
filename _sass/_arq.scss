@@ -1,0 +1,274 @@
+.arquitectura-hero {
+  display: flex;
+  align-items: center;
+  background: $gray-lightest;
+}
+
+.arquitectura-hero-image {
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    background: url("/imgs/arquitectura/hero.png") right center no-repeat;
+    height: 800px;
+  }
+}
+.arquitectura-hero-image img {
+  height: auto;
+  max-width: 300px;
+
+  @include media-breakpoint-up(md) {
+    max-width: 100%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+.arquitectura-hero-text {
+  text-align: center;
+}
+
+.arquitectura-hero-title {
+  font-size: 3em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.arquitectura-hero-subtitle {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: $gray-light;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.arquitectura-paragraph {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: $gray-light;
+  font-weight: 200;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  
+  font-size: 1.2em;
+  @include media-breakpoint-up(md) {
+    font-size: 1.5em;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.8em;
+  }
+}
+
+.exam-with-shadow {
+  position: relative;
+  height: 520px;
+
+  @include media-breakpoint-up(md) {
+    height: 1100px;
+  }
+}
+
+.exam-with-shadow--front {
+  background: url(/imgs/arq/front-exam.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 40;
+
+  height: 1/2 * 862px;
+  width: 1/2 * 340px;
+  top: -13px;
+  right: 70px;
+
+  @include media-breakpoint-up(md) {
+    height: 862px;
+    width: 340px;
+    top: -13px;
+    right: 70px;
+  }
+}
+
+.exam-with-shadow--back {
+  background: url(/imgs/arq/back-exam.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 20;
+
+  height: 1/2 * 864px;
+  width: 1/2 * 341px;
+  top: 104px;
+  right: 185px;
+
+  @include media-breakpoint-up(md) {
+    height: 864px;
+    width: 341px;
+    top: 234px;
+    right: 285px;
+  }
+}
+
+.exam-with-shadow--front-shadow {
+  background: url(/imgs/arq/front-shadow.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 30;
+
+  height: 1/2 * 888px;
+  width: 1/2 * 376px;
+  top: 49px;
+  right: 71px;
+  
+  @include media-breakpoint-up(md) {
+    height: 888px;
+    width: 376px;
+    top: 105px;
+    right: 69px;
+  }
+}
+.exam-with-shadow--back-shadow {
+  background: url(/imgs/arq/back-shadow.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 10;
+
+  height: 1/2 *  890px;
+  width: 1/2 * 376px;
+  top: 160px;
+  right: 184px;
+
+  @include media-breakpoint-up(md) {
+    height: 890px;
+    width: 376px;
+    top: 348px;
+    right: 274px;
+  }
+}
+
+.arquitectura-design-container {
+  background: $gray-lightest;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.arquitectura-design-explanation {
+  padding-top: 50px;
+  font-size: 1.6em;
+  color: #666;
+  font-weight: 200;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.arquitectura-design-explanation h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 2.3em;
+  color: #666;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.arquitectura-proyecto-image {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.arquitectura-proyecto-image img {
+  max-width: 100%;
+}
+
+.arquitectura-proyecto-68k {
+  float: left;
+  display: block;
+  width: 66px;
+  height: 66px;
+  border: $gray 1px solid;
+  font-size: 2em;
+  padding: 10px 0;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: 200;
+}
+
+.arquitectura-proyecto--super {
+  font-size: 3em;
+  color: #666;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.arquitectura-proyecto--heading {
+  font-size: 1.6em;
+  color: #333;
+  font-weight: 200;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+.arquitectura-proyecto--paragraph {
+  font-size: 1.15em;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.arquitectura-mosaic {
+  background: $gray-lightest url(/imgs/arquitectura/mosaic.png) no-repeat top center;
+  height: 1000px;
+}
+
+.arquitectura-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: $gray-light;
+}
+
+.arquitectura-footer h2 {
+  font-size: 1.6em;
+  font-weight: 200;
+}
+
+.arquitectura-profesores {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.arquitectura-profesores-tile {
+  color: $gray-light;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.arquitectura-profesores a {
+  color: $gray-light;
+
+  .bl {
+    color: $link-color;
+  }
+}
+
+.arquitectura-profesores a:hover {
+  text-decoration: none;
+
+  .bl {
+    text-decoration: underline;
+  }
+}
+
+.arquitectura-profesores img {
+  height: 30px;
+  width: auto;
+  opacity: 0.5;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.arquitectura-profesores h3 {
+  font-size: 1.5em;
+  font-weight: 200;
+}

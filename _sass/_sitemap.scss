@@ -1,0 +1,37 @@
+.sitemap {
+  background: $gray-lighter;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.sitemap-title {
+  font-size: $font-size-xs;
+  color: #333;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 0.1em;
+  letter-spacing: 0.03em;
+}
+
+.sitemap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sitemap-item {
+  padding-bottom: 0.1em;
+}
+
+.sitemap-link {
+  color: #666;
+  font-size: $font-size-xs;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.sitemap-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
