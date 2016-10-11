@@ -9,93 +9,9 @@ body {
   margin: 0;
 }
 
-.globalnav {
-  background: #000;
-}
-.globalnav__list {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-}
-.globalnav__item {
-  text-align: center;
-  flex-grow: 1;
-}
-
-.globalnav__item--small {
-  text-align: left;
-  flex-grow: 0;
-}
-.globalnav__link {
-  font-weight: 300;
-  letter-spacing: 0.04em;
-  display: inline-block;
-  color: #FFF;
-  text-decoration: none;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  transition: 0.5s;
-}
-.globalnav__link--datsi {
-  width: 40px;
-  text-indent: -9999px;
+.navbar-brand {
   background: url({{ site.github.url }}/imgs/logo.svg) center center no-repeat;
   background-size: 24px 24px;
-}
-.globalnav__link:hover {
-  opacity: 0.6;
-}
-.globalfooter {
-  background: #EEE;
-  padding: 40px 0;
-  color: #666;
-  font-size: 0.8em;
-}
-.globalfooter--content {
-  margin: 0 auto;
-  width: 1000px;
-}
-
-.sitemap {
-  display: flex;
-}
-.sitemap__col {
-  flex-grow: 1;
-  flex-basis: 0;
-}
-.sitemap__title {
-  font-size: 0.8em;
-  color: #333;
-  font-weight: 600;
-  margin-top: 24px;
-  margin-bottom: 9px;
-  letter-spacing: 0.03em;
-
-}
-.sitemap__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.sitemap__item {
-  padding-bottom: 9px;
-  
-}
-.sitemap__link {
-  color: #666;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.sitemap__link:hover {
-  color: #000;
-  text-decoration: underline;
 }
 
 .copyright {
