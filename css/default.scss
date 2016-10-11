@@ -44,7 +44,7 @@ body {
 .globalnav__link--datsi {
   width: 40px;
   text-indent: -9999px;
-  background: url(/imgs/logo.svg) center center no-repeat;
+  background: url({{ site.github.url }}/imgs/logo.svg) center center no-repeat;
   background-size: 24px 24px;
 }
 .globalnav__link:hover {
